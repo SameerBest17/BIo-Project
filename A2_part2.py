@@ -56,7 +56,6 @@ for q_key,q_val in Q_seq.items():
 
     if (int(q_key[1]) == 0):
         User_ID=details[2:-2]
-        print(User_ID)
         continue
     for d_key,d_val in Database.items():
         details = str(d_val)
